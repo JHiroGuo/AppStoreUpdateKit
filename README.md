@@ -29,10 +29,11 @@ https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/
 
 //Create an app object with your app info. (the productID is important, find the productID on itunes website, eg: https://itunes.apple.com/us/app/kaka/id1434172933?mt=12)
 
-    AppStoreUpdateAppObject *appObj = [[AppStoreUpdateAppObject alloc] initWithAppName:@"Kaka"
-                                                                           withAppIcon:[NSImage imageNamed:@"cat"]
-                                                                    withCurrentVersion:@"1.0.9"
-                                                                         withProductID:@"1434172933"];
+     AppStoreUpdateAppObject *appObj = [[AppStoreUpdateAppObject alloc]
+                                       initWithAppName:@"UP Studio"
+                                       withAppIcon:[NSImage imageNamed:@"up"]
+                                       withCurrentVersion:@"1.0.11"
+                                       withProductID:@"1119477741"];
 //Synchronize to check app update.
     //rslt will be YES if getting app info is successful.
     BOOL rslt =[[AppStoreUpdateManager sharedManager] checkAppUpdate:appObj];
