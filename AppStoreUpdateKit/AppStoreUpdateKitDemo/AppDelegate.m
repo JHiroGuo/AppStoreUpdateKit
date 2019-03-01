@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  AppStoreUpdateKitDemo
 //
-//  Created by Jovi on 12/19/18.
-//  Copyright © 2018 Jovi. All rights reserved.
+//  Created by GJH on 2/19/19.
+//  Copyright © 2019 GJHi. All rights reserved.
 //
 
 #import "AppDelegate.h"
